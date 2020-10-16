@@ -15,3 +15,9 @@ autoload -Uz compinit && compinit
 zstyle ':completion:*:default' menu select=2
 zstyle ':completion:*:*:git:*' script ~/.zsh/completion/git-completion.bash
 
+# setopt
+setopt auto_cd
+setopt auto_pushd
+setopt correct
+setopt list_packed
+
